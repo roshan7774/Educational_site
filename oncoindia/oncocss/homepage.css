@@ -1,0 +1,165 @@
+
+.mainbar h1{
+text-align: center;
+color: rgb(245, 131, 24);
+font-size: 20px;
+margin: 0 auto;
+}
+.navbar{
+    background-color: rgb(250, 205, 81);
+    /* padding: 4px; */
+    
+}
+h1{
+  color:rgb(245, 131, 24) ;
+}
+.logo{
+  color:rgb(245, 131, 24) ;
+  text-decoration: none;
+  font-size: 37px;
+  margin-left: 15px;
+}
+
+span{
+  font-size: 15px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+            list-style: none;
+            margin: 13px 3px;
+}
+.navbar li a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color:black;
+}
+.search{
+    float:right;
+    color: whitesmoke;
+    padding: 3px 5px;
+    margin: 5px 7px;
+
+}
+.navbar input{
+    border-radius: 15px;
+}
+.dropbtn{
+    background-color:  rgb(250, 205, 81);
+    border: none;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .x{
+    align-items: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .img-responsive{
+    width: 100%;
+  }
+  /* .couseres-list background{
+    background-image: url("E:\webdevloper\oncoindia\oncohtml\e9a5052d-0019-445a-96d0-058a8d77b81f_SchoolPic.jpg");
+  } */
+  .img-curve{
+    border-radius: 20px;
+  }
+  .courses{
+    background-image: url(../oncohtml/e9a5052d-0019-445a-96d0-058a8d77b81f_SchoolPic.jpg);
+    border: 2px solid rgb(250, 205, 81);
+    width:87%;
+    height: 30%;
+    margin: 2% auto;
+  }
+  .courses h1{
+    color: white;
+    width: 100%;
+    
+    
+    
+
+  }
+  .clearfix{
+    clear: both;
+    float: none;
+  }
+
+.cbox{
+  
+  
+  width: 25%;
+  float: left;
+  margin: 2%;
+}
+.btn{ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  background: #031321;
+  font-size: 15px;
+  margin: 5px;
+}
+.cbox a {
+  position: relative;
+  display: inline-block;
+  padding: 6px 50px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.cbox a:hover {
+  color: whitesmoke;
+  background: #4c84cc;
+  box-shadow: 0 0 10px #4c84cc, 0 0 40px #4c84cc, 0 0 80px#4c84cc;
+}
+h1{
+  text-align: center;
+}
+.newsarticle{
+  border: 2px solid rgb(250, 205, 81);
+    width:87%;
+    height: 30%;
+    margin: 2% auto;
+}
+.articlesec{
+  border: 2px solid #eba346;
+  margin: 4px 8px;
+}
+.login{
+  float: right;
+  margin-right: 50px;
+  border: 1px solid black;
+}

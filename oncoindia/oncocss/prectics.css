@@ -1,0 +1,258 @@
+.logo{
+    color:rgb(255, 255, 255) ;
+    text-decoration: none;
+    font-size: 37px;
+    margin-left: 15px;
+  }
+  
+  span{
+    font-size: 15px;
+  }
+  .container{
+      border: 1px solid rgb(255, 254, 253);
+      
+  }
+  .startq{
+      color: orangered;
+  }
+  body{
+      background-color: blue;
+  }
+ 
+  .startbtn ,.result_box{
+      font-family: 'Times New Roman', Times, serif;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      
+  }
+  .startbtn button{
+      font-weight: 500;
+      font-size: 30px;
+      color: blue;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      outline: none;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+.quixbox{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+}
+.quixbox header{
+    position: relative;
+    z-index: 99;
+    height: 70px;
+    padding: 0 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-radius:  5px 5px 0 0;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0,0.1);
+}
+.quixbox header .title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.quixbox header .timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    background-color: rgba(212, 207, 240, 0.541);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px 8px;
+
+}
+.quixbox header .timer.timetext{
+    font-weight: 400;
+    font-size: 15px;
+    user-select: none;
+}
+.quixbox header .timer .timer_sec{
+    font-size: 15px;
+    font-weight: 500;
+    width: 45px;
+    line-height: 30px;
+    background: rgb(78, 66, 66);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(78, 66, 66);;
+    
+}
+.quixbox section{
+
+    padding: 20px 30px 20px 30px;
+}
+.quixbox section .quetext{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quixbox section .optionlist{
+    padding: 20px 0;
+    display: block;
+}
+section .optionlist .option{
+    font-size: 17px;
+    background: aliceblue;
+    border: 1px solid rgb(196, 227, 255);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+section .optionlist .option:hover{
+    color: blue;
+    background: rgb(219, 219, 247);
+    border-color: rgb(212, 212, 252);
+}
+.optionlist .option:last-child{
+    margin-bottom: 0px;
+}
+.optionlist .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    pointer-events: none;
+
+}
+.optionlist .option .icon.tick{
+    color: rgb(72, 235, 72);
+    border: 2px solid rgb(72, 235, 72);
+    background: rgb(213, 255, 222)
+}
+.optionlist .option .icon.cross{
+    color: rgb(255, 5, 5);
+    border: 2px solid rgb(255, 0, 0);
+    background: rgb(255, 206, 206)
+}
+.quixbox footer{
+    height: 60px;
+    width: 98%;
+    padding: 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.quixbox footer .totalque span{
+    display: flex;
+    user-select: none;
+    
+}
+footer .totalque span p{
+    font-weight: 1000;
+    padding: 0px 5px;
+}
+.totalque span:first-child{
+    padding: 0px;
+
+}
+footer .nextbtn{
+    height: 30px;
+    padding: 0px 45px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 247);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+footer .nextbtn:hover{
+    background: rgb(184, 184, 243);
+}
+.result_box{
+    display: none;
+    background: white;
+    width: 450px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.result_box .complete_text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.result_box .score_text span{
+    display: flex;
+    font-weight: 1000;
+    margin: 10px 0;
+
+}
+.result_box .score_text p{
+    padding: 0px 4px;
+    display: flex;
+}
+.result_box .button{
+    margin: 0 10px;
+    height: 40px;
+    
+}
+.result_box .button .restart{
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    padding: 3px 3px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 247);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.result_box .button .quit{
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    padding: 3px 3px;
+    border: none;
+    outline: none;
+    color: rgb(76, 0, 255);
+    
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 247);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.result_box .button .restart:hover{
+    background: rgb(184, 184, 243);
+}
+.result_box .button .quit:hover{
+    color: white;
+    background: rgb(0, 0, 255);
+}
